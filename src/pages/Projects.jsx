@@ -1,8 +1,23 @@
 import { Link } from "react-router-dom";
 import { arrow } from "../assets/icons";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  EffectCards,
+  EffectFade,
+  EffectCoverflow,
+  Pagination,
+  Navigation,
+  Scrollbar,
+} from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-cards";
+// import "swiper/css/effect-coverflow";
+
 import { projects } from "../constants";
 import CTA from "../components/CTA";
+
+import { udemy, fivepoints, devOps } from "../assets/images";
 
 const Projects = () => {
   return (
@@ -25,7 +40,7 @@ const Projects = () => {
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (
           <div className="lg:w-[400px] w-full" key={project.name}>
-            <div className="block-container w-12 h-12">
+            {/* <div className="block-container w-12 h-12">
               <div className={`btn-back rounded-xl ${project.theme}`} />
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
@@ -34,8 +49,41 @@ const Projects = () => {
                   className="w-1/1 h-1/2 object-contain"
                 />
               </div>
+            </div> */}
+            <div className="w-full h-auto">
+              <Swiper
+                modules={[EffectCards, Pagination, Scrollbar, Navigation]}
+                // spaceBetween={50}
+                // slidesPerView={3}
+                effect="cards"
+                grabCursor
+                centeredSlides
+                scrollbar={true}
+                navigation={true}
+                slidesPerView={"auto"}
+                pagination={{ clickable: true }}
+                coverflowEffect={{
+                  rotate: 50,
+                  stretch: 0,
+                  depth: 100,
+                  modifier: 1,
+                  slideShadows: true,
+                }}
+                className="mySwiper"
+              >
+                {project.images.map((image, index) => (
+                  <SwiperSlide className="rounded-3xl">
+                    <img src={image} alt={`${image} + image`} key={index} />
+                  </SwiperSlide>
+                ))}
+                {/* <SwiperSlide>
+                  <img src={fivepoints} alt="udemy" className="rounded-3xl" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={devOps} alt="udemy" className="rounded-3xl" />
+                </SwiperSlide> */}
+              </Swiper>
             </div>
-
             <div className="mt-5 flex flex-col">
               <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}

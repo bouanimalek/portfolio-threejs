@@ -10,6 +10,15 @@ import {
   devOps,
   fivepoints,
   udemy,
+  selja,
+  selja2,
+  slot_machine,
+  elmazraa,
+  guerrillacom,
+  guerrillacom2,
+  guerrillacom3,
+  guerrillacom4,
+  guerrillacom5,
 } from "../assets/images";
 
 import {
@@ -251,131 +260,141 @@ export const projects = [
   {
     iconUrl: rateFlicks,
     theme: "btn-back-rateflicks",
-    name: "Rateflicks",
+    name: "Selja (Wheel of Fortune)",
+    images: [selja, selja2],
     description:
-      "A fully responsive movie rating app built with React that allows users to search for movies, view ratings, and leave their own reviews. I've incorporated dynamic features like search filters, real-time data fetching, and interactive elements with react-spinners for loading animations and react-toastify for notifications.",
+      "A fully responsive Wheel of Fortune used in Tom&Jerry (Selja) advertising campaign.",
     link: "https://github.com/MatinT-SA/Rateflicks",
   },
   {
     iconUrl: goalTracker,
     theme: "btn-back-goal-tracker",
-    name: "Goal Tracker",
+    name: "Slot Machine (Ola)",
+    images: [slot_machine],
     description:
-      "A responsive React app for tracking goals by priority, featuring a progress bar for completed tasks. Utilizes React Hooks (useState, useEffect, forwardRef) and react-icons for a modern, efficient design.",
+      "A fully responsive Slot Machine used in Ola Ice cream advertising campaign.",
     link: "https://github.com/MatinT-SA/goal-tracker",
   },
   {
     iconUrl: shareSplit,
     theme: "btn-back-balance",
-    name: "Share Split",
+    name: "El Mazraa (Wheel of Fortune)",
+    images: [elmazraa],
     description:
-      "A responsive React application for effortlessly splitting expenses among friends or groups. Calculate, divide, and share costs with ease. Getting help from main React Hooks such as useState, useEffect.",
+      "A fully responsive Wheel of Fortune used in El Mazraa advertising campaign.",
     link: "https://github.com/MatinT-SA/share-split",
   },
   {
     iconUrl: luggageList,
     theme: "btn-back-soft-green",
-    name: "Luggage List",
+    name: "GuerrillaCom (Website)",
+    images: [
+      guerrillacom,
+      guerrillacom2,
+      guerrillacom3,
+      guerrillacom4,
+      guerrillacom5,
+    ],
     description:
-      "A simple responsive UI coded with React for picking the listed luggage with yourself before the trip!",
-    link: "https://github.com/MatinT-SA/luggage-list",
+      "A simple responsive UI coded with React in accordance with customer requests.",
+    link: "https://guerrillacom.com",
   },
-  {
-    iconUrl: pizzaPlaza,
-    theme: "btn-back-warm-orange",
-    name: "Pizza Plaza",
-    description:
-      "This project is coded with React with create-react-app tool and is a responsive menu for a bunch of pizza data to display.",
-    link: "https://github.com/MatinT-SA/pizza-plaza",
-  },
-  {
-    iconUrl: findish,
-    theme: "btn-back-mint",
-    name: "Findish",
-    description:
-      "A fully responsive recipe app built with vanilla JS, SASS, and API integration. Users can search, discover, and add/remove recipes.",
-    link: "https://github.com/MatinT-SA/Findish",
-  },
-  {
-    iconUrl: trackMap,
-    theme: "btn-back-purple",
-    name: "Track Map",
-    description:
-      "A fully responsive map application for tracking your activities based on your current location which gets automatically detected by geolocation API and will allow you to add running or cyclist activities.",
-    link: "https://github.com/MatinT-SA/TrackMap",
-  },
-  {
-    iconUrl: banklistWebsite,
-    theme: "btn-back-magenta",
-    name: "Banklist Website",
-    description:
-      "This is the website for my Banklist web application. A fully responsive cool UI with phenominal features and animations.",
-    link: "https://github.com/MatinT-SA/banklist-website",
-  },
-  {
-    iconUrl: banklistWebApp,
-    theme: "btn-back-cyan",
-    name: "Banklist Web App",
-    description:
-      "BankList is a fully responsive web app optimized for seamless user experience on all devices and built with JavaScript (more focused on Front-End) for managing and viewing bank transactions with mock data. It features a user-friendly interface with dynamic data handling, and filtering capabilities to showcase almost all the array methods use cases.",
-    link: "https://github.com/MatinT-SA/Banklist",
-  },
-  {
-    iconUrl: pigDiceGame,
-    theme: "btn-back-coral",
-    name: "Pig Dice Game",
-    description:
-      "A fully-responsive famous Pig Game coded in Vanilla besides HTML & CSS which you can play with your friends online.",
-    link: "https://github.com/MatinT-SA/pig-dice-game",
-  },
-  {
-    iconUrl: guessTheNumber,
-    theme: "btn-back-red",
-    name: "Guess The Number",
-    description:
-      'This is a JavaScript project where the user should guess our random number with a cool design, having difficulty to select by the user out of "hard, normal, easy" and also completely responsivess with CSS Media Queries.',
-    link: "https://github.com/MatinT-SA/Guess_The_Number",
-  },
-  {
-    iconUrl: qrcode,
-    theme: "btn-back-green",
-    name: "QRCode Generator",
-    description:
-      'This is a input field which is going to produce you random QR Codes whenever the user click on the "Generate QR Code" button.',
-    link: "https://github.com/MatinT-SA/QRCode-Generator",
-  },
-  {
-    iconUrl: telenote,
-    theme: "btn-back-blue",
-    name: "TeleNote",
-    description:
-      "This is a social media app called 'TeleNote' powered by MERN (MongoDB, Express.js, React.js Node.js) which allows users to sign up and create their own account and then do CRUD operations (Create, Read, Update, Delete) on this web application and share their life activities and cool moments with people all around the world. They can also like other people's posts, comment below them in each post's individual page. Also the Search and Pagination features have been implemented in it.",
-    link: "https://github.com/MatinT-SA/TeleNote_MERN_React_APP",
-  },
-  {
-    iconUrl: MatinShop,
-    theme: "btn-back-pink",
-    name: "Matin Online Shopping",
-    description:
-      "An Online Shopping coded in CSharp and ASP.NET MVC and also JS and have used with technologies or frameworks such as Bootstrap, jQuery, JSON, AJAX and also SQL-Server database. A complete CRUD Web Application having admin and user dashboard with multiple capabilities such as sending messages to other users having their username. You can buy or sell your own product here and also we have separate section for auction products",
-    link: "https://github.com/MatinT-SA/Matin-Online_Shopping-MVC",
-  },
-  {
-    iconUrl: Figma,
-    theme: "btn-back-black",
-    name: "Figma Design",
-    description:
-      "A cool design with ReactJS for our UI. In this project, I've focused only on the Front-End part.",
-    link: "https://github.com/MatinT-SA/React-Responsive-UI-UX-Figma-Design",
-  },
-  {
-    iconUrl: snake,
-    theme: "btn-back-yellow",
-    name: "Snake Game",
-    description:
-      "This is a simple Snake Game developed with pure JS that the player can eat the food by moving to any of the directions it wants and increase its snake size by one but it still needs to get customized more over time.",
-    link: "https://github.com/MatinT-SA/Snake-Game-Pure-JS",
-  },
+  // {
+  //   iconUrl: pizzaPlaza,
+  //   theme: "btn-back-warm-orange",
+  //   name: "Pizza Plaza",
+  //   description:
+  //     "This project is coded with React with create-react-app tool and is a responsive menu for a bunch of pizza data to display.",
+  //   link: "https://github.com/MatinT-SA/pizza-plaza",
+  // },
+  // {
+  //   iconUrl: findish,
+  //   theme: "btn-back-mint",
+  //   name: "Findish",
+  //   description:
+  //     "A fully responsive recipe app built with vanilla JS, SASS, and API integration. Users can search, discover, and add/remove recipes.",
+  //   link: "https://github.com/MatinT-SA/Findish",
+  // },
+  // {
+  //   iconUrl: trackMap,
+  //   theme: "btn-back-purple",
+  //   name: "Track Map",
+  //   description:
+  //     "A fully responsive map application for tracking your activities based on your current location which gets automatically detected by geolocation API and will allow you to add running or cyclist activities.",
+  //   link: "https://github.com/MatinT-SA/TrackMap",
+  // },
+  // {
+  //   iconUrl: banklistWebsite,
+  //   theme: "btn-back-magenta",
+  //   name: "Banklist Website",
+  //   description:
+  //     "This is the website for my Banklist web application. A fully responsive cool UI with phenominal features and animations.",
+  //   link: "https://github.com/MatinT-SA/banklist-website",
+  // },
+  // {
+  //   iconUrl: banklistWebApp,
+  //   theme: "btn-back-cyan",
+  //   name: "Banklist Web App",
+  //   description:
+  //     "BankList is a fully responsive web app optimized for seamless user experience on all devices and built with JavaScript (more focused on Front-End) for managing and viewing bank transactions with mock data. It features a user-friendly interface with dynamic data handling, and filtering capabilities to showcase almost all the array methods use cases.",
+  //   link: "https://github.com/MatinT-SA/Banklist",
+  // },
+  // {
+  //   iconUrl: pigDiceGame,
+  //   theme: "btn-back-coral",
+  //   name: "Pig Dice Game",
+  //   description:
+  //     "A fully-responsive famous Pig Game coded in Vanilla besides HTML & CSS which you can play with your friends online.",
+  //   link: "https://github.com/MatinT-SA/pig-dice-game",
+  // },
+  // {
+  //   iconUrl: guessTheNumber,
+  //   theme: "btn-back-red",
+  //   name: "Guess The Number",
+  //   description:
+  //     'This is a JavaScript project where the user should guess our random number with a cool design, having difficulty to select by the user out of "hard, normal, easy" and also completely responsivess with CSS Media Queries.',
+  //   link: "https://github.com/MatinT-SA/Guess_The_Number",
+  // },
+  // {
+  //   iconUrl: qrcode,
+  //   theme: "btn-back-green",
+  //   name: "QRCode Generator",
+  //   description:
+  //     'This is a input field which is going to produce you random QR Codes whenever the user click on the "Generate QR Code" button.',
+  //   link: "https://github.com/MatinT-SA/QRCode-Generator",
+  // },
+  // {
+  //   iconUrl: telenote,
+  //   theme: "btn-back-blue",
+  //   name: "TeleNote",
+  //   description:
+  //     "This is a social media app called 'TeleNote' powered by MERN (MongoDB, Express.js, React.js Node.js) which allows users to sign up and create their own account and then do CRUD operations (Create, Read, Update, Delete) on this web application and share their life activities and cool moments with people all around the world. They can also like other people's posts, comment below them in each post's individual page. Also the Search and Pagination features have been implemented in it.",
+  //   link: "https://github.com/MatinT-SA/TeleNote_MERN_React_APP",
+  // },
+  // {
+  //   iconUrl: MatinShop,
+  //   theme: "btn-back-pink",
+  //   name: "Matin Online Shopping",
+  //   description:
+  //     "An Online Shopping coded in CSharp and ASP.NET MVC and also JS and have used with technologies or frameworks such as Bootstrap, jQuery, JSON, AJAX and also SQL-Server database. A complete CRUD Web Application having admin and user dashboard with multiple capabilities such as sending messages to other users having their username. You can buy or sell your own product here and also we have separate section for auction products",
+  //   link: "https://github.com/MatinT-SA/Matin-Online_Shopping-MVC",
+  // },
+  // {
+  //   iconUrl: Figma,
+  //   theme: "btn-back-black",
+  //   name: "Figma Design",
+  //   description:
+  //     "A cool design with ReactJS for our UI. In this project, I've focused only on the Front-End part.",
+  //   link: "https://github.com/MatinT-SA/React-Responsive-UI-UX-Figma-Design",
+  // },
+  // {
+  //   iconUrl: snake,
+  //   theme: "btn-back-yellow",
+  //   name: "Snake Game",
+  //   description:
+  //     "This is a simple Snake Game developed with pure JS that the player can eat the food by moving to any of the directions it wants and increase its snake size by one but it still needs to get customized more over time.",
+  //   link: "https://github.com/MatinT-SA/Snake-Game-Pure-JS",
+  // },
 ];
 
 export const certifications = [
