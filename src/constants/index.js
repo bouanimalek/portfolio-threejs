@@ -19,6 +19,17 @@ import {
   guerrillacom3,
   guerrillacom4,
   guerrillacom5,
+  jotion,
+  jotion2,
+  airbnb,
+  airbnb2,
+  airbnb3,
+  airbnb4,
+  airbnb5,
+  messenger,
+  messenger2,
+  messenger3,
+  elmazraa2,
 } from "../assets/images";
 
 import {
@@ -279,7 +290,7 @@ export const projects = [
     iconUrl: shareSplit,
     theme: "btn-back-balance",
     name: "El Mazraa (Wheel of Fortune)",
-    images: [elmazraa],
+    images: [elmazraa, elmazraa2],
     description:
       "A fully responsive Wheel of Fortune used in El Mazraa advertising campaign.",
     link: "https://github.com/MatinT-SA/share-split",
@@ -298,6 +309,32 @@ export const projects = [
     description:
       "A simple responsive UI coded with React in accordance with customer requests.",
     link: "https://guerrillacom.com",
+  },
+  {
+    iconUrl: luggageList,
+    theme: "btn-back-soft-green",
+    name: "Jotion",
+    images: [jotion, jotion2],
+    description:
+      "A fullstack notion clone with proper notion-style editor, cover images, nested documents, publishing documents to public, real-time database and more using NextJs 13 and TailwindCss.",
+    link: "https://note-taking-app-eta-seven.vercel.app/",
+  },
+  {
+    iconUrl: luggageList,
+    theme: "btn-back-soft-green",
+    name: "Airbnb Clone",
+    images: [airbnb, airbnb2, airbnb3, airbnb4, airbnb5],
+    description: "A fullstack airbnb clone using NextJs 13 and TailwindCss.",
+    link: "https://rent-example-tawny.vercel.app/",
+  },
+  {
+    iconUrl: luggageList,
+    theme: "btn-back-soft-green",
+    name: "Messenger Clone",
+    images: [messenger, messenger2, messenger3],
+    description:
+      "A fullstack messenger clone using NextJs 13 with NextAuth and TailwindCss.",
+    link: "https://messenger-clone-pi.vercel.app/",
   },
   // {
   //   iconUrl: pizzaPlaza,
