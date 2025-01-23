@@ -13,7 +13,7 @@ const Navbar = () => {
         <NavLink
           to="about"
           className={({ isActive }) =>
-            isActive ? "text-red-500" : "text-black"
+            isActive ? "text-red-500 underline" : "text-black"
           }
         >
           About
@@ -21,7 +21,7 @@ const Navbar = () => {
         <NavLink
           to="projects"
           className={({ isActive }) =>
-            isActive ? "text-red-500" : "text-black"
+            isActive ? "text-red-500 underline" : "text-black"
           }
         >
           Projects

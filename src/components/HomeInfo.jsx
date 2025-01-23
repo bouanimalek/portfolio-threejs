@@ -24,7 +24,7 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text="5 years of experience in programming and doing freelance projects with C#, JS"
+      text="2 years of experience in programming and doing freelance projects with ReactJs, NextJs, NodeJs, flutter and React Native"
       link="/about"
       btnText="Learn more"
     />

@@ -45,7 +45,7 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">Work Experience</h3>
+        <h3 className="subhead-text">My Education</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
             {/* Spearheaded my freelance journey in web development with a notable
@@ -130,7 +130,7 @@ const About = () => {
                 contentStyle={{
                   borderBottom: "8px",
                   borderStyle: "solid",
-                  borderBottomColor: education.iconBg,
+                  borderBottomColor: "#9CA3AF",
                   boxShadow: "none",
                 }}
               >
@@ -169,7 +169,7 @@ const About = () => {
             and provide value in a competitive landscape.
           </p>
         </div>
-        <div className="mt-20 flex gap-7">
+        <div className="mt-20 lg:flex items-center justify-center gap-7 sm:flex ">
           {certifications.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
           ))}

@@ -32,6 +32,7 @@ import airbnb5 from "./airbnb5.png";
 import messenger from "./messenger.png";
 import messenger2 from "./messenger2.png";
 import messenger3 from "./messenger3.png";
+import typescript_certif from "./typescript_certif.jpg";
 
 export {
   hero,
@@ -68,4 +69,5 @@ export {
   messenger,
   messenger2,
   messenger3,
+  typescript_certif,
 };

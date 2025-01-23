@@ -30,6 +30,7 @@ import {
   messenger2,
   messenger3,
   elmazraa2,
+  typescript_certif,
 } from "../assets/images";
 
 import {
@@ -441,15 +442,15 @@ export const certifications = [
       "Introduction à DevOps: Vagrant, Packer, Docker, Jenkins, Kubernetes...",
     tags: [
       {
-        name: "react",
+        name: "Docker",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Jenkins",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Kubernetes",
         color: "pink-text-gradient",
       },
     ],
@@ -459,7 +460,7 @@ export const certifications = [
   {
     name: "ReactJs/NodeJs",
     description:
-      "Introduction aux différents fondamentaux de ReactJs et ExpressJs",
+      "Introduction aux différents fondamentaux de ReactJs et ExpressJs (bootcamp Fivepoints)",
     tags: [
       {
         name: "react",
@@ -478,24 +479,23 @@ export const certifications = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Udemy",
-    description:
-      "Different certifications I accomplished in online courses 'Udemy'",
+    name: "TypeScript",
+    description: "Certification in Typescript from Maximilian Schwarzmüller",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: udemy,
+    image: typescript_certif,
     source_code_link: "https://github.com/",
   },
 ];
